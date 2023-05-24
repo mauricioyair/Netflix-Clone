@@ -3,7 +3,7 @@ import Logo from './../components/Logo'
 
 export default function Header() {
   return(
-    <div className="fixed flex justify-between bg-black text-white h-24 z-20 w-full py-[16px] px-[3%]">
+    <div className="fixed flex justify-between bg-black text-white h-[24px] z-20 w-full py-[30px] px-[3%]">
       <div className="flex flex-row items-center">
         <a href="/" className="fill-[#e50914] inline-block leading-3 align-middle">
           <Logo />
