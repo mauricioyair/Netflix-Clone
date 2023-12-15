@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Hero() {
   return(
-    <section className="bg-[#181818] relative text-white m-auto max-w-[1600px] pl-[5vw] pr-[5vw] pt-0 pb-0 saturate-25">      
-        <div className="flex flex-row m-auto relative w-full">        
-          <div className="flex flex-col justify-center max-w-[800px] min-w-[500px] pt-[16px] pr-[32px] pb-[64px] pl-[0] relative w-[35%] z-2 after:-z-1 after:absolute after:bottom-0 after:left-0 after:right-[-200px] after:top-0 after:content-[''] after:bg-linear-gradient-right">
-            <div className="relative w-[90%]">
+    <section className="bg-[#181818] relative text-white w-full md:m-auto md:max-w-[1600px] saturate-25">      
+        <div className="flex flex-col flex-nowrap md:flex-row order-1 m-auto relative w-full">        
+          <div className="flex flex-col flex-nowrap justify-center w-full md:max-w-[800px] md:min-w-[500px] p-10 md:p-[64px] relative md:w-[35%] z-2 after:-z-1 after:absolute after:bottom-0 after:left-0 after:right-0 md:after:-right-40 after:top-0 after:content-[''] after:bg-linear-gradient-right">
+            <div className="relative">
               <img src="https://occ-0-637-116.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABWT5HIl9YXE1ZG5Khq2rGPAsxwcnKPhqJMO3E2WiZBVNemNHAlH148400SKvcFoxJFZsxLBpOCb31CliGnE3RYbxVAyHf10wyEfqZHliqF0z.png?r=a6e" className="h-auto w-full"/>
             </div>
             <div className="mt-top-40">
@@ -28,8 +28,8 @@ export default function Hero() {
               </div>
             </div>
           </div>
-          <div className="flex flex-1 flex-row z-1 pb-[55%]">
-            <div className="bg-[url('https://occ-1-637-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXxO3kkJpSHCgAmumfs_MXySHJ8NGt6Bc_qw2sD9f9MWoobM1_6sQgWl-BtUq0lMqF54tGVLOMr6H560-73Kt94jTyl_Yxo9xTHh.jpg?r=202')] bg-[50%] absolute -right-[6%] bg-no-repeat bg-cover w-full h-full after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:bg-linear-gradient-bottom">              
+          <div className="flex flex-1 flex-row z-1 order-[-1] md:order-1">
+            <div className="bg-[url('https://occ-1-637-116.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABXxO3kkJpSHCgAmumfs_MXySHJ8NGt6Bc_qw2sD9f9MWoobM1_6sQgWl-BtUq0lMqF54tGVLOMr6H560-73Kt94jTyl_Yxo9xTHh.jpg?r=202')] bg-[50%] absolute right-0 bg-no-repeat bg-cover w-full h-full after:content-[''] after:h-full after:w-full after:absolute after:left-0 after:bg-linear-gradient-bottom">              
             </div>
           </div>
         </div>
