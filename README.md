@@ -1,6 +1,6 @@
 # Netflix clone
 
-This project was created with React & Tailwind css and also used the [Rick & Morty API](https://rickandmortyapi.com/api/character).
+This project was created with React & Tailwind css and also used the [Rick & Morty API](https://rickandmortyapi.com/).
 
 <img src="./public/screenshot.png" alt="screenshot">
 
@@ -30,4 +30,4 @@ In the project directory, you can run:
 npm run dev
 ```
 
-Or watch the live [demo](https://mauricioyair.github.io/To-do)
+<!-- Or watch the live [demo](https://mauricioyair.github.io/Netflix-clone.git)-->
